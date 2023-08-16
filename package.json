@@ -1,0 +1,22 @@
+{
+  "name": "hcs-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "esrun index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.31.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@digitak/esrun": "^3.2.24",
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  }
+}
